@@ -1,0 +1,34 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zodata_create.CreateProduct" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Create Product">
+		<content>
+	       <VBox>
+	          <HBox>
+	             <Label text="Product ID"/>
+	             <Input id="ipProduct"/>
+	          </HBox>
+	          <HBox>
+	             <Label text="Type Code"/>
+	             <Input id="iptypeCode"/>
+	          </HBox>
+	          <HBox>
+	             <Label text="Category"/>
+	             <Input id="ipCat"/>
+	          </HBox>
+	          <HBox>
+	             <Label text="Name"/>
+	             <Input id="ipName"/>
+	          </HBox>
+	          <HBox>
+	             <Label text="Description"/>
+	             <Input id="ipDesc"/>
+	          </HBox>
+	          <HBox>
+	             <Label text="Supplier ID"/>
+	             <Input id="ipSupplier"/>
+	          </HBox>
+	          <Button text="Create Product" press="onCreate"/>
+	       </VBox>
+		</content>
+	</Page>
+</core:View>
